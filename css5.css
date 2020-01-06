@@ -1,0 +1,71 @@
+/*
+Author: Javed Ur Rehman
+Website: http://www.allphptricks.com/
+*/
+
+body {font-family:Arial, Sans-Serif;}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {color:#0067ab; text-decoration:none;}
+a:hover {text-decoration:underline;}
+.form{width: 300px; margin: 0 auto;}
+input[type='text'], input[type='email'], input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 10px; color: #333; font-size: 14px; margin-top: 10px;}
+input[type='submit']{padding: 10px 25px 8px; color: #fff; background-color: #0067ab; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; border: 1px solid #0164a5; border-radius: 2px; margin-top: 10px; cursor:pointer;}
+input[type='submit']:hover {background-color: #024978;}
+
+
+.profiletext {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    width: 25%;
+    margin-left: 400px;
+    padding: 5px;
+}
+
+
+html, body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+
+
+/*  NAVBAR  */
+.navbar_top {
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+	 background-color: #14fc71;
+	 display: block;
+	 transition: 0.5s;
+     text-align: center;
+     border-color: red;
+  }
+
+
+
+.navbar_item {
+    display: inline-block;
+  }
+  
+  .navbar_item a {
+    display: block;
+    color: white;
+	font-family: Arial;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+	height: 22px;
+	-webkit-transition: background-color 0.3s;
+	-moz-transition:  background-color 0.3s;
+    transition: background-color 0.3s;
+    color: black;
+  }
+  
+ 
+  .navbar_item a:hover {
+    background-color: red;
+  }
